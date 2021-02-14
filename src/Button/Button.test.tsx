@@ -2,9 +2,8 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import TestComponent from "./Button";
-import { TestComponentProps } from "./Button";
-
+import TestComponent from "./TestComponent";
+import { TestComponentProps } from "./TestComponent.types";
 
 describe("Test Component", () => {
   let props: TestComponentProps;
@@ -33,4 +32,5 @@ describe("Test Component", () => {
 
     expect(testComponent).toHaveClass("test-component-secondary");
   });
-});*/
+});
+*/
